@@ -1,0 +1,15 @@
+path: /home/kuromi-serika/true_high_speed/ring_dataset
+train: images/train
+val: images/val
+test: images/test
+kpt_shape:
+- 1
+- 3
+flip_idx:
+- 0
+names:
+  0: ring
+  1: distractor
+kpt_names:
+  0:
+  - center
